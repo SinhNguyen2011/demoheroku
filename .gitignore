@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.sh
+*.zip
+*.pyc
+.idea
+*.licence
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+### Django ###
+log/*
+*.log
+*.pot
+__pycache__/
+local_settings.py
+migrations
+migrations/*
+
+.env
+db.sqlite3
+venv/*
+venv
+
+redis/*
